@@ -1,0 +1,29 @@
+.contenedor-tarjetas{
+    display: flex;
+    justify-content: center;
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 80%;
+    
+  }
+
+footer{
+    background-color: black;
+    color: bisque;
+    text-align: center;
+  }
+
+  .contenedor-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+    a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+        }

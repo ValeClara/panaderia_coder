@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Qué Hambre!</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand:wght@300&family=Sacramento&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a>Bienvenidos</a></li>
+                <li><a href="../index.html"><span class="mdi mdi-home-variant-outline"></span>Inicio</a></li>
+                <li><a href="sobreNos.html"><span class="mdi mdi-information"></span> Sobre Nosotros</a></li>
+                <li><a href="#piedepag"><span class="mdi mdi-account"></span> Contactos</a></li>
+              </ul>
+        </nav>
+    </header>
+
+    <main>
+      <div class="contenedor-tarjetas">
+      <div class="contenedor-form">
+        <form action="/action_page.php" class="contenedor-form">
+            <div class="form-group">
+              <label for="email">Nombre completo:</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Ingresar nombre"
+                id="name"/>
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Cantidad de personas:</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Ingresar número"
+                id="cant"/>
+            </div>
+      
+            <div class="form-group">
+              <label for="birthday">Día</label>
+              <input type="date" id="birthday" name="birthday" />        
+            </div>
+      
+            <div class="form-group">
+              <label for="pwd">Hora</label>
+              <input type="time" id="appt" name="appt">
+            </div>
+          
+      
+            <button type="submit" class="btn btn-primary">Reservar</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer id="piedepag">
+      <div class="contenedor-footer">
+        <span class="mdi mdi-whatsapp">Hace tu reserva acá: +543511486519</span>
+        <span class="mdi mdi-file-document">O llenando este <a href="#">formulario</a></span>
+        <span class="mdi mdi-instagram"><a href="https://www.instagram.com/vvvalchu._/">Conocenos</a></span>
+        <span class="mdi mdi-google-maps"><a href="https://goo.gl/maps/wXYAZBU44kQVLK4W6">Como llegar</a></span>
+      </div>        
+    </footer>
+</body>
+</html>
