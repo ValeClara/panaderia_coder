@@ -1,0 +1,28 @@
+.background-nav{
+    background-color: black;
+    color: bisque;
+}
+
+.nav-link{
+    color: bisque;
+    text-decoration:none;
+    
+
+}
+
+.nav-link:hover{
+    color: bisque;
+    text-decoration: none;
+}
+
+.card{
+transition: all 2s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.navbar-toggler-icon{
+    background-color: bisque;
+}
