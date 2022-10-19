@@ -26,3 +26,11 @@ transition: all 2s;
 .navbar-toggler-icon{
     background-color: bisque;
 }
+
+.grillado {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	grid-column-gap: 16px;
+	grid-row-gap: 18px;
+ }
