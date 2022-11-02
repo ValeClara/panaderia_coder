@@ -5,7 +5,8 @@ footer{
 }
 
 .contenedor-footer{
-    display: flex;
+    @include props-flex(column, space-between, none)
+    /*display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;*/
     }
