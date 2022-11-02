@@ -1,0 +1,69 @@
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: bisque;
+    background-image: url(../img/surtido-pan-horneado-sobre-fondo-madera_23-2148432263.jpg)  
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 98px;
+}
+
+h3{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+    a {
+    display: block;
+    color: inherit;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    &:hover{
+    background-color: #111;
+    }
+    }
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.titulos{
+    display: block;
+}
+
+.contenedor-tarjetas{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    @include props-flex(none, space-between, center);
+    /*display: flex;
+    justify-content: space-between;
+    align-content: center;*/
+    width: 80%;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+

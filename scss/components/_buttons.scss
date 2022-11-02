@@ -1,0 +1,28 @@
+button{
+    font-family: 'Amatic SC', cursive;
+    color: bisque;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+
+  .btn {
+    background-color: rgb(101, 132, 235);
+    color: black;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+  }
