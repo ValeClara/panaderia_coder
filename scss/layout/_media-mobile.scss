@@ -1,12 +1,15 @@
 @media all and (max-width: 480px) {
-  body html {
-    overflow-x: hidden;
+  body, html {
+    overflow-x: hidden !important;
   }
 
   .card{
-    justify-content: center
-    margin top 2cm;
-    margin-bottom: 2cm;
+    justify-content: center;    
+  }
+
+  .margen{
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
 }
